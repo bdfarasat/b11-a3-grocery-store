@@ -14,7 +14,7 @@
     <style>
         .font-sora {
             font-family: "Sora", serif;
-        }
+        }       
     </style>
 </head>
 
@@ -59,6 +59,12 @@
                     On, Prices You’ll Love!</h1>
                 <p class="text-xl	text-gray-500 mb-8 px-5">Shop your daily essentials at unbeatable prices. From fresh
                     produce to pantry <br> staples, we’ve got you covered every day!</p>
+                    <div class='flex space-x-2 justify-center items-center bg-transparent dark:invert'>
+                        <span class='sr-only'>Loading...</span>
+                         <div class='h-8 w-8 bg-green-600 rounded-full animate-bounce [animation-delay:-0.3s]'></div>
+                       <div class='h-8 w-8 bg-green-600 rounded-full animate-bounce [animation-delay:-0.15s]'></div>
+                       <div class='h-8 w-8 bg-green-600 rounded-full animate-bounce'></div>
+                   </div>
             </div>
             <!-- Image area -->
             <div class="flex justify-center pb-12">
@@ -66,7 +72,7 @@
             </div>
         </section>
     </header>
-    <main>    
+    <main>
         <!-- Services Section -->
         <section class="lg:container mx-5 lg:mx-auto lg:px-24 mb-10 lg:mb-24">
             <h3 class="text-green-600 text-3xl	font-semibold	mb-8">Services</h3>
@@ -292,29 +298,28 @@
         </section>
         <!-- Review Section -->
         <section class=" lg:mt-20 mt-10 justify-center">
-            <h2 class="text-center font-semibold text-5xl mb-16">Client's <span class="text-green-600">Positive Reviews</span></h2>
+            <h2 class="text-center font-semibold text-5xl mb-16">Client's <span class="text-green-600">Positive
+                    Reviews</span></h2>
             <div>
-                <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center justify-self-center w-2/3 ">                    
+                <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center justify-self-center w-2/3 ">
                     <!-- card 1 -->
                     <div class="card bg-base-100  shadow-xl w-3/4 mb-5 pt-5">
                         <div class="w-1/3 mx-auto">
                             <img src="images/others/user-1.png" alt="">
                         </div>
                         <div class="card-body items-center text-center">
-                          <p>Not only do reviews provide critical information about your company’s performance, but they also show future clients what their experience will look like.</p>
-                          <div class="rating">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input
-                              type="radio"
-                              name="rating-2"
-                              class="mask mask-star-2 bg-orange-400"
-                              checked="checked" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          </div>
-                          <p class="font-bold">Regina Miles</p>
-                          <p>Banker</p>
+                            <p>Not only do reviews provide critical information about your company’s performance, but
+                                they also show future clients what their experience will look like.</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p class="font-bold">Regina Miles</p>
+                            <p>Banker</p>
                         </div>
                     </div>
                     <!-- card 2 -->
@@ -323,20 +328,18 @@
                             <img src="images/others/2.png" alt="">
                         </div>
                         <div class="card-body items-center text-center">
-                          <p>The staff was great. The receptionists were very helpful and answered all our questions.</p>
-                          <div class="rating">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input
-                              type="radio"
-                              name="rating-2"
-                              class="mask mask-star-2 bg-orange-400"
-                              checked="checked" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          </div>
-                          <p class="font-bold">Rebeka jonas</p>
-                          <p>Engineer</p>
+                            <p>The staff was great. The receptionists were very helpful and answered all our questions.
+                            </p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p class="font-bold">Rebeka jonas</p>
+                            <p>Engineer</p>
                         </div>
                     </div>
                     <!-- card 3 -->
@@ -345,28 +348,26 @@
                             <img src="images/others/3.png" alt="">
                         </div>
                         <div class="card-body items-center text-center">
-                          <p>The food was fresh and delicious, and the best part was that the chef sent us a dessert they had created that day. We were delighted.</p>
-                          <div class="rating">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input
-                              type="radio"
-                              name="rating-2"
-                              class="mask mask-star-2 bg-orange-400"
-                              checked="checked" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                          </div>
-                          <p class="font-bold">Taher Uddin</p>
-                          <p>Doctor</p>
+                            <p>The food was fresh and delicious, and the best part was that the chef sent us a dessert
+                                they had created that day. We were delighted.</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p class="font-bold">Taher Uddin</p>
+                            <p>Doctor</p>
                         </div>
                     </div>
                 </div>
             </div>
-          </section>
+        </section>
         <!-- Newsletter Section -->
         <section class="lg:container mx-5 lg:mx-auto lg:px-24   lg:mt-0">
-            <div class="bg-gray-100 rounded-2xl grid grid-cols-1 lg:grid-cols-2 relative lg:top-52 top-80 ">
+            <div class="bg-gray-100 rounded-2xl grid grid-cols-1 lg:grid-cols-2 relative lg:top-44 top-80 ">
                 <!-- Image section -->
                 <div class="flex justify-center">
                     <img src="images/vegetable-busket.png" alt="">
@@ -379,7 +380,7 @@
                         placeholder="Enter email....">
                     <br>
                     <a class="btn bg-[#179800] text-white w-2/10 mb-5">Subscribe</a>
-                    
+
                 </div>
             </div>
         </section>
@@ -410,6 +411,7 @@
             </div>
 
         </section>
+        
 
     </main>
 </body>
